@@ -13,6 +13,7 @@ class MarkdownExtension(Extension):
         self,
         environment: Any,
         md_extras: List[str] = [
+            "tables",
             "footnotes",
             "markdown-in-html",
             "fenced-code-blocks",
